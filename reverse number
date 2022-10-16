@@ -14,6 +14,6 @@ public class Main{//folder name and class name should be same tabhi run hoga
             num=num/10;
             
         }
-        System.out.println("revrse number is "+rev);
+        System.out.print("revrse number is "+rev);
     }
 }
