@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int num=sc.nextInt();
+        
+       int t=num;
+       int sum=0;
+       while(num!=0)
+       {
+           int p=num%10;
+           sum=sum*10+p;
+           num=num/10;
+           
+       }
+        if(sum==t)
+        {
+            System.out.print("palindrome no");
+        }
+        else 
+        {
+         System.out.print("not palindrome no");
+        }
+       
+    }
+}
